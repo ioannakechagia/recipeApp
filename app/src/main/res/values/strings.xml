@@ -1,0 +1,899 @@
+<resources>
+    <string name="app_name">PIGGY</string>
+
+    <string-array name="category_names">
+        <item>Breakfast</item>
+        <item>Salad</item>
+        <item>Soup</item>
+        <item>Pasta</item>
+        <item>Fish</item>
+        <item>Meat</item>
+        <item>Burger</item>
+        <item>Dessert</item>
+    </string-array>
+
+    //CATEGORY RECIPES
+    <string-array name="Breakfast">
+        <item>Pancakes</item>
+        <item>AvocadoToast</item>
+        <item>Omelette</item>
+    </string-array>
+
+    <string-array name="Salad">
+        <item>BeanSalad</item>
+        <item>CarrotSalad</item>
+        <item>BroccoliSalad</item>
+    </string-array>
+
+    <string-array name="Soup">
+        <item>CeleriacSoup</item>
+        <item>TomatoSoup</item>
+        <item>MushroomSoup</item>
+    </string-array>
+
+    <string-array name="Pasta">
+        <item>PastaPrimavera</item>
+        <item>Lasagna</item>
+        <item>AlfredoPasta</item>
+    </string-array>
+
+    <string-array name="Fish">
+        <item>Fishwithsauce</item>
+        <item>FishCake</item>
+        <item>GoanFishCurry</item>
+    </string-array>
+
+    <string-array name="Meat">
+        <item>ChickenMarylands</item>
+        <item>RibRoast</item>
+        <item>GrilledPorkChops</item>
+    </string-array>
+
+    <string-array name="Burger">
+        <item>AvocadoBurger</item>
+        <item>ChickenBurger</item>
+        <item>VeggieBurger</item>
+    </string-array>
+
+    <string-array name="Dessert">
+        <item>Cheesecake</item>
+        <item>LemonTart</item>
+        <item>Cookies</item>
+    </string-array>
+
+
+    //RECIPE IMAGES
+    <string-array name="Breakfast_Images">
+        <item>pancakes</item>
+        <item>avocadotoast</item>
+        <item>omelette</item>
+    </string-array>
+
+    <string-array name="Salad_Images">
+        <item>beansalad</item>
+        <item>carrotsalad</item>
+        <item>broccolisalad</item>
+    </string-array>
+
+    <string-array name="Soup_Images">
+        <item>celeriacsoup</item>
+        <item>tomatosoup</item>
+        <item>mushroomsoup</item>
+    </string-array>
+
+    <string-array name="Pasta_Images">
+        <item>pastaprimavera</item>
+        <item>lasagna</item>
+        <item>alfredopasta</item>
+    </string-array>
+
+    <string-array name="Fish_Images">
+        <item>fishwithsauce</item>
+        <item>fishcake</item>
+        <item>goanfishcurry</item>
+    </string-array>
+
+    <string-array name="Meat_Images">
+        <item>chickenmarylands</item>
+        <item>ribroast</item>
+        <item>grilledporkchops</item>
+    </string-array>
+
+    <string-array name="Burger_Images">
+        <item>avocadoburger</item>
+        <item>chickenburger</item>
+        <item>veggieburger</item>
+    </string-array>
+
+    <string-array name="Dessert_Images">
+        <item>cheesecake</item>
+        <item>lemontart</item>
+        <item>cookies</item>
+    </string-array>
+
+    //Pancakes
+    <string name="pancakes_name">Pancakes</string>
+    <string name="pancakes_chef">Andrew Jun</string>
+    <string name="pancakes_ingredients">
+        ▢ 2 cups oat flour
+        \n▢ 2 tbsp baking powder
+        \n▢ 1 tbsp ground cinnamon
+        \n▢ ½ tsp salt
+        \n▢ 1½ cups Greek yogurt
+        \n▢ 2 eggs
+        \n▢ ½ cup milk
+        \n▢ 2 tbsp maple syrup
+        \n▢ 1 tsp vanilla extract
+    </string>
+    <string name="pancakes_steps">
+        Add the dry ingredients including the oat flour, baking powder, cinnamon, and salt to a large bowl. Whisk together the dry ingredients until they are well combined.
+        Add the wet ingredients to the dry ingredients including the Greek Yogurt, eggs, milk, maple syrup, and vanilla extract. Stir to combine. If the batter is too thick, thin it out with a bit more milk. If it is too thin, let it set for a couple of minutes.
+        Heat a nonstick skillet or griddle on medium heat. Add a drop of cold water and once it sizzles, lower the heat to medium-low and let it cool 1-2 minutes. Spray your pan with cooking spray or coat in butter and add about ¼ cup of the protein pancake batter at a time to the skillet. If you want, smooth out the batter a bit with the bottom of your measuring cup.
+        Let the pancakes heat until bubble begin to appear on the top and the edges start to look dry. Flip the pancakes and let them cook for another 1-2 minutes until golden brown. Repeat with the remaining batter.
+        You can make these Protein Pancakes with oatmeal instead of oat flour. If using oatmeal, blend the oats for about 30 seconds-1 minute. Then, add the remaining ingredients to the blender and blend until smooth, pushing down the sides as needed. Wait about 5 minutes for the batter to thicken and then follow steps 3-4.
+    </string>
+    <string name="pancakes_time">25 mins</string>
+    <string name="pancakes_link">https://mallorythedietitian.com/protein-pancakes-without-protein-powder/#recipe</string>
+    <string name="pancakes_youtube">https://www.youtube.com/watch?v=3-03e-ssKkE</string>
+
+    //Avocado Toast
+    <string name="avocadotoast_name">Avocado Toast</string>
+    <string name="avocadotoast_chef">Andrew Jun</string>
+    <string name="avocadotoast_ingredients">
+        ▢ 1 medium avocado
+        \n▢ 3 hard-boiled eggs
+        \n▢ 2 tbsp plain greek yogurt
+        \n▢ juice of half a large lemon
+        \n▢ 1 tbsp dijon mustard
+        \n▢ ¼ cup fresh parsley, chopped
+        \n▢ 1 tbsp fresh dill, chopped
+        \n▢ 1 shallot, chopped
+        \n▢ ½ tsp red pepper flakes
+        \n▢ salt and black pepper
+        \n▢ 1 slice sourdough bread
+    </string>
+    <string name="avocadotoast_steps">
+        Cut avocado in half and remove the pit. Then scoop out the flesh. Roughly chop the shallot and hard boiled eggs. Then add everything to a cutting board.
+        Smash all the ingredients using either a masher, fork or a kitchen knife.
+        Top a piece of toast with the avocado and egg mixture.
+        Add crushed red chili flakes or your favorite toppings.
+    </string>
+    <string name="avocadotoast_time">6mins</string>
+    <string name="avocadotoast_link">https://mallorythedietitian.com/smashed-avocado-toast/#recipe</string>
+    <string name="avocadotoast_youtube">https://www.youtube.com/watch?v=sClotvG4tzM</string>
+
+    //Omelette
+    <string name="omelette_name">Omelette</string>
+    <string name="omelette_chef">Andrew Jun</string>
+    <string name="omelette_ingredients">
+        ▢ 3 egg whites
+        \n▢ 10g pecorino
+        \n▢ 1/2 tsp chives
+        \n▢ 10g unsalted butter
+        \n▢ 1/8 tsp sea salt
+        \n▢ 1 small pinch white pepper
+        \n▢ 1 tsp olive oil
+        \n▢ 1/2 cup asparagus
+        \n▢ 2 paper-thin slices prosciutto
+    </string>
+    <string name="omelette_steps">
+        Pre-heat oven to 200°C.
+        First, separate eggs and place whites in a bowl. Reserve yolks for another use.
+        Cook asparagus and prosciutto: Heat olive oil in a 20cm, non-stick pan over medium heat. Add asparagus and cook until tender. When almost done, add prosciutto and stir for 30 seconds–just enough to warm through but not crisp. Transfer to a bowl and set aside.
+        Melt butter: Add butter into the same skillet and place over low heat. The butter should melt and be bubbling gently when the egg whites are ready to pour in.
+        Whisk whites until it is just opaque, fluffy and creamy. Do not take it to stiff peaks. It should be a consistency so you can draw a figure 8 on the surface and it stays there without sinking. You do not want to be able to do, that is too stiff.
+        Add chives, salt and pepper. Whisk a few times just to mix through.
+        Immediately pour egg whites into hot skillet, spread with a spatula to cover surface. Stir for 10 to 12 seconds until the whites start to set on the base.
+        Remove from stove, then lightly tap the pan 5 times on the stove grates or a heat mat to remove bubbles from the base.
+        Sprinkle asparagus, prosciutto and pecorino on half the omelette.
+        Transfer to oven for 2 minutes.
+        Remove from oven. Run rubber spatula around edges and then under the side without the filling, carefully fold omelette in half to cover the filling.
+        Press the omelettes rounded edge against the side of the pan for 30 seconds to seal the edge.
+        Hold a plate at a 45 degree angle. Then flip the omelette out onto the plate so it lands upside down, ie. pan-contact face up.
+        Garnish with chives. Serve immediately!
+    </string>
+    <string name="omelette_time">10mins</string>
+    <string name="omelette_link">https://www.recipetineats.com/fluffy-egg-white-omelette/</string>
+    <string name="omelette_youtube">https://www.youtube.com/watch?v=FkNmkwAlYfI</string>
+
+    //Bean Salad
+    <string name="beansalad_name">Bean Salad</string>
+    <string name="beansalad_chef">Andrew Jun</string>
+    <string name="beansalad_ingredients">
+        ▢ 1 garlic clove
+        \n▢ Juice of 1 small lemon
+        \n▢ 2 tbsp olive oil
+        \n▢ 1 tsp mustard
+        \n▢ 1/2 tsp salt
+        \n▢ 2 Persian cucumbers
+        \n▢ 2 green onions
+        \n▢ 0.75 Oz fresh dill
+        \n▢ 5-7 radishes
+        \n▢ Black pepper
+    </string>
+    <string name="beansalad_steps">
+        Add the garlic, lemon juice, oil, mustard, salt, and pepper to a small bowl. Whisk well and set aside for 5 minutes while you prep the remaining ingredients; the lemon juice will mellow out the flavor of the raw garlic.
+        Add the beans, cucumber, radishes, dill, and green onions to a large bowl. Add the dressing to the bowl and then mix well until evenly incorporated. Season with additional salt and pepper to taste, if necessary.
+        Serve immediately, or store in the fridge for 15 to 30 minutes before serving, to allow the flavors to combine. more. Leftovers will keep in the fridge for up to 5 days.
+    </string>
+    <string name="beansalad_time">28mins</string>
+    <string name="beansalad_link">https://frommybowl.com/dilly-white-bean-cucumber-salad/</string>
+    <string name="beansalad_youtube">https://www.youtube.com/watch?v=KROMDbfhPM8</string>
+
+    //Carrot Salad
+    <string name="carrotsalad_name">Carrot Salad</string>
+    <string name="carrotsalad_chef">Andrew Jun</string>
+    <string name="carrotsalad_ingredients">
+        ▢ 3 large carrots
+        \n▢ 1 tbsp olive oil
+        \n▢ 1 tbsp fresh lime juice
+        \n▢ 1 tsp apple cider vinegar
+        \n▢ 1 tsp agave
+        \n▢ 1/2 tsp ground coriander
+        \n▢ 1/8 tsp cayenne pepper
+        \n▢ 1/4 tsp salt
+        \n▢ 2 tbsp chopped parsley
+        \n▢ 2 tsp sesame seeds
+    </string>
+    <string name="carrotsalad_steps">
+        Cut the carrots into 3-4 pieces, then use a mandoline to slice the carrots lengthwise as thinly as possible. Set aside.
+        Add the oil, lime juice, apple cider vinegar, agave, coriander, cayenne, and salt to a large bowl. Whisk well until evenly combined.
+        Add the sliced carrots, parsley, and sesame seeds to the bowl. Mix well until all of the carrots are evenly coated in the dressing.
+        Enjoy immediately, or wait 10-15 minutes for the carrots to soften slightly. Store any leftovers in an airtight container in the refrigerator for up to 5 days.
+    </string>
+    <string name="carrotsalad_time">16mins</string>
+    <string name="carrotsalad_link">https://frommybowl.com/raw-carrot-salad/</string>
+    <string name="carrotsalad_youtube">https://www.youtube.com/watch?v=rM6KytVLNmY</string>
+
+    //Broccoli Salad
+    <string name="broccolisalad_name">Broccoli Salad</string>
+    <string name="broccolisalad_chef">Andrew Jun</string>
+    <string name="broccolisalad_ingredients">
+        ▢ 2/3 cup Vegan Mayo
+        \n▢ 1 tsp mustard
+        \n▢ 2 tbsp apple vinegar
+        \n▢ 1 tbsp maple syrup
+        \n▢ 1/2 tsp garlic powder
+        \n▢ 1/4 tsp paprika
+        \n▢ 1/4 tsp salt
+        \n▢ Black pepper
+        \n▢ 1 pound broccoli
+        \n▢ 1 cup carrot
+        \n▢ 1/2 cup red onion
+        \n▢ 2/3 cup sunflower seeds
+        \n▢ 2/3 cup cranberries
+    </string>
+    <string name="broccolisalad_steps">
+        Wash and chop the broccoli, carrot, and red onion. Separate the broccoli florets from the stems. Chop the heads into small, bite-sized pieces, then peel the stems and finely dice them.
+        Add the vegan mayo, apple cider vinegar, maple syrup, garlic powder, smoked paprika, salt, and pepper to the base of a large bowl, then mix well until combined. Toss in the broccoli, carrots, and red onion, then mix until all pieces are evenly coated in the dressing. Fold in the sunflower seeds and dried cranberries, then add any additional salt and black pepper to taste.
+        Let sit for at least 10 minutes before serving to allow the flavors to combine. Refrigerate any leftovers in an airtight container for up to 5 days.
+    </string>
+    <string name="broccolisalad_time">15mins</string>
+    <string name="broccolisalad_link">https://frommybowl.com/crunchy-broccoli-salad/</string>
+    <string name="broccolisalad_youtube">https://www.youtube.com/watch?v=Hhnx65HJevM</string>
+
+    //Celeriac Soup
+    <string name="celeriacsoup_name">Celeriac Soup</string>
+    <string name="celeriacsoup_chef">Andrew Jun</string>
+    <string name="celeriacsoup_ingredients">
+        ▢ 60g butter
+        \n▢ 2 garlic cloves
+        \n▢ 1 onion
+        \n▢ 1/2 leek
+        \n▢ 3 celery stems
+        \n▢ 800g celeriac
+        \n▢ 200g potato
+        \n▢ 1.5 litres water
+        \n▢ 1 1/2 tsp salt
+        \n▢ 1/4 tsp white pepper
+        \n▢ 1 cup cream
+        \n▢ 1 bay leaf
+        \n▢ 2 thyme sprigs
+        \n▢ 1/2 tsp black peppercorn
+        \n▢ 1/2 tsp coriander seeds
+    </string>
+    <string name="celeriacsoup_steps">
+        Bundle the bay leaf, thyme, black peppercorns and coriander seeds loosely in a small piece of cheesecloth to create a sachet. Tie with cooking twine to secure.
+        Melt butter in large pot over medium-low heat. Add onion, leek, celery and garlic. Cook for 10 minutes until onion is soft but not golden. Do not rush this part – this creates an important flavour base so we can make this soup using water not stock.
+        Add celeriac and potato. Cook for 10 minutes, stirring regularly, until the outside of the celeriac and potato starts to soften. Be careful to not colour the celeriac – we are going for a white soup here!
+        Add salt, pepper, Spice and Herb Sachet, and water. Bring to a boil, then turn down to a simmer. Simmer for 25 minutes (no lid) until celeriac is very soft.
+        Add cream, simmer for another 3 minutes.
+        Remove Sachet, then blitz until fully smooth using your method of choice: Stick blender, or cool slightly and do in a blender in batches.
+        Adjust salt and pepper to taste.
+        Ladle into bowls. Sprinkle with croutons and chives, drizzle with olive oil. Serve with crusty bread for dunking!
+    </string>
+    <string name="celeriacsoup_time">60mins</string>
+    <string name="celeriacsoup_link">https://www.recipetineats.com/celeriac-soup/</string>
+    <string name="celeriacsoup_youtube">https://www.youtube.com/watch?v=mGCzQJizPec</string>
+
+    //Tomato Soup
+    <string name="tomatosoup_name">Tomato Soup</string>
+    <string name="tomatosoup_chef">Andrew Jun</string>
+    <string name="tomatosoup_ingredients">
+        ▢ 1.5kg tomatoes
+        \n▢ 5 garlic cloves
+        \n▢ 2 tbsp olive oil
+        \n▢ 1 1/2 tsp smoked paprika
+        \n▢ 1 tsp cooking salt
+        \n▢ 1/4 tsp black pepper
+        \n▢ 1 tbsp olive oil
+        \n▢ 1 onion
+        \n▢ 1 litre vegetable stock
+        \n▢ 1/2 tsp white sugar
+        \n▢ 1/2 cup cream
+        \n▢ 1/4 cup fresh basil
+    </string>
+    <string name="tomatosoup_steps">
+        Preheat the oven to 220°C.
+        Place the tomatoes and unpeeled garlic cloves on a tray. Drizzle/sprinkle with the oil, paprika, salt and pepper. Toss to coat, squidging the cut face of the tomato in the oil on the tray to thoroughly coat. Arrange tomatoes cut face up.
+        Roast for 40 to 45 minutes or until there is some charring on the tomatoes.
+        Heat the oil in a large pot over medium high heat. Sauté the garlic and onion for 3 minutes or until the onion is translucent.
+        Remove the garlic cloves from the baking tray. Scrape all the tomatoes and juices into the pot. Squeeze garlic flesh into the pot. Add vegetable stock.
+        Blitz with a stick blender until smooth.
+        Bring to a simmer then lower heat to medium and simmer for 10 minutes. Stir in the cream.
+        Ladle into bowls, drizzle with cream and garnish with basil. Dunk in grilled cheese and enjoy!
+    </string>
+    <string name="tomatosoup_time">40mins</string>
+    <string name="tomatosoup_link">https://www.recipetineats.com/smoky-roasted-tomato-soup/#wprm-recipe-container-143705</string>
+    <string name="tomatosoup_youtube">https://www.youtube.com/watch?v=l_GRTc-1MdA</string>
+
+    //Mushroom Soup
+    <string name="mushroomsoup_name">Mushroom Soup</string>
+    <string name="mushroomsoup_chef">Andrew Jun</string>
+    <string name="mushroomsoup_ingredients">
+        ▢ 30g unsalted butter
+        \n▢ 1 onion
+        \n▢ 2 garlic cloves
+        \n▢ 400g white mushrooms
+        \n▢ 200g Cremini mushroom
+        \n▢ 3 1/4 cups vegetable stock
+        \n▢ 1/4 tsp salt
+        \n▢ 1/8 tsp black pepper
+        \n▢ 3/4 cup crème fraiche
+    </string>
+    <string name="mushroomsoup_steps">
+        Cut mushrooms into 4 slices, then dice into 3 or 4 pieces.
+        Melt butter in a large pot over medium high heat. Add onion and garlic. Cook for 3 minutes until softened, but not golden.
+        Add mushrooms and cook for 10 minutes, stirring regularly. Do not try to brown; they wont as the pot is too crowded but we do not need colour.
+        Add vegetable stock, salt and pepper. Bring to a boil, then lower heat to medium and simmer gently for 15 minutes without a lid.
+        Stir in cream, then simmer for another 5 minutes.
+        Transfer to a blender. Remove the cap from the feeding hole in the blender lid, cover the hole with a folded tea towel. Blend until completely smooth.
+        Return to pot, simmer for a minute or two until bubbles caused by blending largely subside and soup is hot
+        Ladle into bowls. Garnish with a drizzle of extra virgin olive oil or cream, croutons and parsley or, chervil. Dont forget bread for dunking!
+    </string>
+    <string name="mushroomsoup_time">40mins</string>
+    <string name="mushroomsoup_link">https://www.recipetineats.com/mushroom-soup/</string>
+    <string name="mushroomsoup_youtube">https://www.youtube.com/watch?v=qUYsotniaH8</string>
+
+    //Pasta Primavera
+    <string name="pastaprimavera_name">Pasta Primavera</string>
+    <string name="pastaprimavera_chef">Andrew Jun</string>
+    <string name="pastaprimavera_ingredients">
+        ▢ ¼ pound sugar snap peas
+        \n▢ ½ pound asparagus
+        \n▢ 2 tbsp unsalted butter
+        \n▢ ¾ cup fresh English peas
+        \n▢ ¼ cup thinly sliced spring onion
+        \n▢ 2 garlic cloves
+        \n▢ ½ teaspoon fine sea salt
+        \n▢ Black pepper
+        \n▢ 12ounces fettuccine
+        \n▢ ⅔cup grated Parmigiano
+        \n▢ ½cup crème fraîche
+        \n▢ 3 tbsp parsley
+        \n▢ 1 tbsp tarragon
+    </string>
+    <string name="pastaprimavera_steps">
+        Bring a large pot of heavily salted water to a boil over medium-high heat.
+        While the water is coming to a boil, slice snap peas and asparagus stems into ¼-inch-thick pieces; leave asparagus tips whole.
+        Melt butter in a large skillet over medium-high heat. Add snap peas, asparagus, English peas and onion. Cook until vegetables are barely tender, 3 to 4 minutes. Stir in garlic and cook 1 minute more. Season with salt and pepper; set aside.
+        Drop pasta into boiling water and cook until al dente (1 to 3 minutes for fresh pasta, more for dried pasta). Drain well and transfer pasta to a large bowl. Immediately toss pasta with vegetables, Parmigiano-Reggiano, crème fraîche and herbs. Season generously with salt and pepper, if needed.
+    </string>
+    <string name="pastaprimavera_time">20 minutes</string>
+    <string name="pastaprimavera_link">https://www.recipetineats.com/pasta-primavera/</string>
+    <string name="pastaprimavera_youtube">https://www.youtube.com/watch?v=91POkISpbds</string>
+
+    //Lasagna
+    <string name="lasagna_name">Lasagna</string>
+    <string name="lasagna_chef">Andrew Jun</string>
+    <string name="lasagna_ingredients">
+        ▢ 1 tbsp olive oil
+        \n▢ 1 onion
+        \n▢ 1 medium carrot
+        \n▢ 1 celery stick
+        \n▢ 2 garlic cloves
+        \n▢ 1 kg beef mince
+        \n▢ 800g canned crushed tomato
+        \n▢ 1/4 cup tomato paste
+        \n▢ 1 cup red wine
+        \n▢ 3 beef bouillon cubes
+        \n▢ 2 bay leaves
+        \n▢ 1–2 tsp sugar
+        \n▢ 1/2 tsp salt and black pepper
+        \n▢ 60g butter
+        \n▢ 1/2 cup flour
+        \n▢ 4 cups milk
+        \n▢ 2 cups gruyere
+        \n▢ 350g fresh lasagna sheets
+        \n▢ 1 1/2 cups mozzarella
+    </string>
+    <string name="lasagna_steps">
+        Heat oil in a large heavy based pot over medium heat. Add garlic, onion, celery and carrots. Cook for 10 minutes until softened and sweet – they should not brown.
+        Add beef, turn heat up and cook the beef, breaking it up as you go.
+        Once the beef has all turned brown, add the remaining Ragu ingredients EXCEPT the sugar.
+        Stir then adjust the heat so it is bubbling very gently. Place the lid on and cook for 1.5–2 hours, stirring every now and then, then remove the lid and simmer for 30 minutes.
+        The ragu is ready when the meat is really tender and the sauce has thickened and is rich. Adjust salt and pepper to taste, and add sugar if required
+        Warm milk up in a saucepan.
+        In a large saucepan, melt butter over medium low heat. Add flour and mix constantly for 1 minute.
+        Pour about 1 cup of the milk in, mixing as you go to incorporate into the flour mixture. Once mostly lump free, add remaining milk. Use a whisk if needed to make it lump free.
+        Turn heat up to medium high. Stir occasionally at first then regularly after a few minutes until sauce thickens – about 5 – 8 minutes. It should coat the back of the wooden spoon.
+        Remove from heat, add cheese, nutmeg, salt and pepper. Mix until the cheese is melted. The Sauce should be thick but still easily pourable – the consistency of heavy cream. If it’s too thick, add a splash of water or milk.
+        Preheat oven to 180°C.
+        Smear a bit of Ragu on the base, then cover with lasagna sheets. Tear sheets to fit.
+        Spread over 2 1/2 cups of Ragu, then drizzle over 1 cup of Cheese Sauce.
+        Top with lasagna sheets. Spread with another 2 1/2 cups of Ragu, then 1 cup of Cheese Sauce. Top with lasagna sheets then repeat 1 more time.
+        Top with a 4th layer of lasagna sheets, then pour over the remaining Cheese Sauce.
+        Sprinkle with Mozzarella, then bake for 25 minutes or until golden and bubbling.
+        Stand for 5 to 10 minutes before cutting and serving, garnished with basil or parsley if desired.
+    </string>
+    <string name="lasagna_time">4hrs</string>
+    <string name="lasagna_link">https://www.recipetineats.com/lasagna/</string>
+    <string name="lasagna_youtube">https://www.youtube.com/watch?v=uB6G74O2kq4</string>
+
+    //Alfredo Pasta
+    <string name="alfredopasta_name">Alfredo Pasta</string>
+    <string name="alfredopasta_chef">Andrew Jun</string>
+    <string name="alfredopasta_ingredients">
+        ▢ 200g chicken breast
+        \n▢ Salt and pepper
+        \n▢ 1 tbsp olive oil
+        \n▢ 250g fettuccine
+        \n▢ 2 cups milk
+        \n▢ 1 1/2 cups chicken stock
+        \n▢ 1 garlic clove
+        \n▢ 1/2 cup heavy cream
+        \n▢ 3/4 cup grated parmesan
+        \n▢ Parsley
+    </string>
+    <string name="alfredopasta_steps">
+        Sprinkle both sides of the chicken with salt and pepper.
+        Use a skillet large enough to fit the pasta.
+        Heat oil over medium high heat. Add chicken and cook for 2 minutes on each side until golden and cooked through. Remove onto plate and rest for 5 minutes, then slice while pasta is cooking.
+        Add milk, chicken broth and garlic. Bring to simmer then add pasta.
+        Move pasta around every 30 seconds or so until it is softened (around 3 minutes) so it does not stick. Once pasta is softened, reduce heat to medium and stir every couple of minutes.
+        At about 9-10 minutes, the pasta should be almost cooked but there should still be liquid covering the base of the skillet. Add cream and parmesan and mix.
+        Simmer, stirring occasionally, for ~2 minutes, until sauce is thickened and pasta is cooked. If you cook it too long and the sauce goes gluggy, add a splash of hot tap water - will go back to silky with a few tosses.
+        Adjust salt and pepper to taste and serve immediately, garnished with freshly grated parmesan and parsley!
+    </string>
+    <string name="alfredopasta_time">30mins</string>
+    <string name="alfredopasta_link">https://www.recipetineats.com/one-pot-chicken-alfredo-pasta/</string>
+    <string name="alfredopasta_youtube">https://www.youtube.com/watch?v=m8Mz5VU8VGQ</string>
+
+    //Fish with sauce
+    <string name="fishwithsauce_name">Fish with sauce</string>
+    <string name="fishwithsauce_chef">Andrew Jun</string>
+    <string name="fishwithsauce_ingredients">
+        ▢ 4 x 150g white fish fillets
+        \n▢ 0.5 tsp salt
+        \n▢ 0.25 tsp pepper
+        \n▢ 2 tbsp olive oil
+        \n▢ 1 eschalot
+        \n▢ 1 tsp lemon juice
+        \n▢ 1 tsp white wine vinegar
+        \n▢ 0.13 tsp salt
+        \n▢ 1 pinch pepper
+        \n▢ 1 pinch white sugar
+        \n▢ 250 ml heavy cream
+        \n▢ 30g unsalted butter
+        \n▢ 315 ml white wine
+    </string>
+    <string name="fishwithsauce_steps">
+        Preheat oven to 50°C. Place rack over a tray.
+        Sprinkle fish with salt and pepper.
+        Heat oil in a large non stick skillet over medium high heat. Cook fish in two batches until golden, 2 minutes on each side, or until the internal temperature is 55°C.
+        Place fish on rack, and place in the oven to keep warm.
+        Tip out excess oil from the skillet but dont wipe clean.
+        Add eschalot, white wine, lemon juice, vinegar, salt, pepper, sugar to the pan. Bring to simmer and reduce by half.
+        Add cream, simmer for 2 minutes.
+        Turn heat to low and add cold butter one cube at a time while mixing with wooden spoon. Once all the butter is incorporated, the sauce should be thickened, satiny and beautifully glossy.
+        Strain the sauce through a sieve, then pour it back into the pan.
+        Place fish back into the pan in the sauce. Spoon some sauce over the fish, leave for 30 seconds.
+        Transfer fish onto serving plates. Spoon sauce over each fish, sprinkled with parsley if desired. Pictured with a side of pea puree
+    </string>
+    <string name="fishwithsauce_time">40mins</string>
+    <string name="fishwithsauce_link">https://www.recipetineats.com/fish-with-white-wine-sauce/</string>
+    <string name="fishwithsauce_youtube">https://www.youtube.com/watch?v=Qn64T2W2gMc</string>
+
+    //Fish cake
+    <string name="fishcake_name">Fish cake</string>
+    <string name="fishcake_chef">Andrew Jun</string>
+    <string name="fishcake_ingredients">
+        ▢ 500g white fish fillets
+        \n▢ 60g butter
+        \n▢ Salt, black pepper
+        \n▢ 800g potatoes
+        \n▢ 2 garlic cloves
+        \n▢ 0.5 cup green onion
+        \n▢ 2 large red chillis
+        \n▢ 1 tbsp thyme leaves
+        \n▢ 1 tbsp parsley
+        \n▢ 150g flour
+        \n▢ 2 eggs
+        \n▢ 75g panko breadcrumbs
+        \n▢ 250 ml vegetable oil
+    </string>
+    <string name="fishcake_steps">
+        Bake potatoes in a 220°C oven for 75 minutes or until they can be pierced with a knife with no resistance. Cut in half and scoop flesh out into a large bowl.
+        Turn oven down to 200°C fish cakes are finished in the oven.
+        Set a rack over a tray. Sprinkle fish with salt and pepper.
+        Melt butter in a large non-stick skillet over medium high heat. Add half the fish and cook, turning, for 4 minutes in total. It should be just cooked inside but not golden.
+        Transfer to rack to cool. Repeat with remaining fish.
+        In the same skillet, add garlic, chilli ,thyme and green onion into the leftover butter. Cook for 1 minute until garlic is golden, then pour over the potato, being sure to scrape out every drop of butter!
+        Add parsley and salt, then use a wooden spoon to roughly mash the potato. Dont use a potato masher, we want some chunks, not smooth mashed potato.
+        Add fish then gently stir through, breaking it up a bit so you have some nice flakes mixed throughout the potato. Dont mash the fish up too enthusiastically-we want fish chunks!
+        Scoop out 1/4 cup of mixture. Pack it in firmly, pop out onto hand and shape firmly into a 1.75cm thick cake. The potato will make it hold together, if you press firmly. You should make 13 to 15.
+        Coat in flour, dip in egg then coat in breadcrumbs, pressing to adhere.
+        Heat oil in skillet over medium high heat. Cook fish cakes in batches for 1 1/2 minutes on each side until golden, then transfer to a paper towel-lined tray. If you re pedantic like me, stand them on their side and roll slowly to cook and make the sides golden too.
+        Remove paper towel from under the fish cakes. Bake for 10 minutes.
+        Serve with lemon wedges, tartare sauce, plain mayonnaise, sour cream, ketchup or tomato sauce.
+    </string>
+    <string name="fishcake_time">1hr 35min</string>
+    <string name="fishcake_link">https://www.recipetineats.com/fish-cakes/</string>
+    <string name="fishcake_youtube">https://www.youtube.com/watch?v=-LfiQMKH0qg</string>
+
+    //Goan Fish Curry
+    <string name="goanfishcurry_name">Goan Fish Curry</string>
+    <string name="goanfishcurry_chef">Andrew Jun</string>
+    <string name="goanfishcurry_ingredients">
+        ▢ 2 1/2 tbsp chilli
+        \n▢ 1 tbsp coriander
+        \n▢ 2 tsp cumin
+        \n▢ 1 tsp turmeric
+        \n▢ 1/2 tsp fenugreek powder
+        \n▢ 3/8 tsp ground cloves
+        \n▢ 6 cloves garlic
+        \n▢ 1 tbsp fresh ginger
+        \n▢ 2 tbsp tamarind puree
+        \n▢ 1/2 red onion
+        \n▢ 6 tbsp water
+        \n▢ 3 tbsp vegetable oil
+        \n▢ 1/2 tsp black mustard
+        \n▢ 1 tbsp tomato paste
+        \n▢ 2/3 cup tomato pulp
+        \n▢ 2/3 cup water
+        \n▢ 400ml coconut milk
+        \n▢ Salt, Sugar
+        \n▢ 1/4 tsp chilli powder
+        \n▢ 2 long green chillies
+        \n▢ 1 tomato
+        \n▢ 600g white fish
+    </string>
+    <string name="goanfishcurry_steps">
+        Place Curry Paste ingredients in a tall jug or milkshake container then blitz on high for 5 to 10 seconds until the onion is pureed. Add more water if needed to make it puree.
+        Heat oil over medium heat in a large pot. Add black mustard seeds and let them sizzle for 30 seconds - careful, they might pop!
+        Add red onion and cook for 3 minutes until edges start to tinge with gold.
+        Add curry paste and cook for 3 minutes-to evaporate water, make spices bloom and cook garlic, ginger.
+        Turn heat up to medium high. Add tomato paste and tomato pulp, cook for 2 minutes.
+        Add water, coconut milk, sugar, salt and chilli powder if using. Stir, then bring to simmer, low heat so it is bubbling gently.
+        Simmer for 2 minutes, add tomato and green chilli.
+        Simmer for another 3 minutes, stirring every now and then-sauce should be thickened, it gets looser again when fish is added.
+        Add fish, stir, cook for 3 to 4 minutes until fish easily flakes.
+        Remove from stove and transfer to serving bowl. Garnish with coriander/cilantro and fresh green chillies if desired. Serve with basmati rice!
+    </string>
+    <string name="goanfishcurry_time">35mins</string>
+    <string name="goanfishcurry_link">https://www.recipetineats.com/goan-fish-curry-indian/</string>
+    <string name="goanfishcurry_youtube">https://www.youtube.com/watch?v=JIXKImi1hdQ</string>
+
+    //Chicken Marylands
+    <string name="chickenmarylands_name">Chicken Marylands</string>
+    <string name="chickenmarylands_chef">Andrew Jun</string>
+    <string name="chickenmarylands_ingredients">
+        ▢ 4 pieces chicken marylands
+        \n▢ 0.5 tsp salt
+        \n▢ 80 ml chardonnay
+        \n▢ 100g butter
+        \n▢ 4 garlic cloves
+        \n▢ 2 tsp fresh rosemary leaves
+        \n▢ 2 tsp thyme leaves
+        \n▢ 2 tsp rosemary
+        \n▢ 2 tsp thyme
+        \n▢ 0.25 tsp black pepper
+    </string>
+    <string name="chickenmarylands_steps">
+        Preheat oven to 220°C.
+        Mix Herb and Garlic Butter ingredients until combined.
+        Butter chicken. Use an upside down tablespoon to loosen the chicken skin from the flesh on the thigh and most of the leg. Smear 80% of the butter under the skin, just a small amount on the underside then the remainder on top of the skin.
+        Put chicken in roasting pan, skin side up. Sprinkle skin with the 1/2 tsp salt. Pour wine around chicken.
+        Roast 50 minutes. Roast 10 minutes to get the skin going. Then reduce the heat to 200°C and roast for a further 40 minutes, basting every 10 minutes from the 20 minute mark onwards.
+        Remove from oven. Rest 10 minutes then serve with the garlic-herb-butter pan juices as the sauce!
+    </string>
+    <string name="chickenmarylands_time">50mins</string>
+    <string name="chickenmarylands_link">https://www.recipetineats.com/herb-garlic-chicken-marylands/</string>
+    <string name="chickenmarylands_youtube">https://www.youtube.com/watch?v=jihp1eaEVsM</string>
+
+    //Rib Roast
+    <string name="ribroast_name">Rib Roast</string>
+    <string name="ribroast_chef">Andrew Jun</string>
+    <string name="ribroast_ingredients">
+        ▢ 2.5kg standing rib roast
+        \n▢ 1 onion
+        \n▢ 1 head of garlic
+        \n▢ 5 sprigs thyme
+        \n▢ 3 sprigs rosemary
+        \n▢ 150g unsalted butter
+        \n▢ 5 garlic cloves
+        \n▢ 2 tsp rosemary
+        \n▢ 2 tsp thyme
+        \n▢ 2 tsp salt
+        \n▢ 1 tsp black pepper
+        \n▢ 1 1/2 cups beef broth/stock
+        \n▢ 1 tbsp balsamic vinegar
+        \n▢ 2 1/2 cups dry red wine
+        \n▢ 1 tbsp cornflour
+    </string>
+    <string name="ribroast_steps">
+        Take beef out of the fridge 2–3 hours before cooking to bring to room temp. Pat dry with paper towel.
+        Preheat oven to 240°C. Adjust shelf so beef will be sitting in the middle of the oven.
+        Mix together.
+        Place onion, garlic and herbs in a heavy based oven proof skillet.
+        Spread a thin layer of butter on the underside of the beef. Place beef on onion etc, butter side down. Spread about 2/3 of the butter on the top and sides.
+        Roast 20 minutes.
+        Remove, spread over remaining butter. Turn oven down to 120°C.
+        Roast for a further 1 1/2 hours, basting every 30 minutes with the juices in the pan, until the internal temperature is 51°C in the centre. Start checking the internal temp early.
+        Transfer beef to plate. Cover loosely with foil and rest for 20–30 minutes. Internal temperature will rise to 56-58°C.
+        Slice beef and serve with Sauce! For a classic high-end Steakhouse experience, serve with Paris Mash and Garlic Sautéed Spinach.
+        Place skillet with onion and garlic left in it on the stove over high heat. Add wine and beef stock, rapidly simmer for 10 minutes until it reduces by 2/3 or so, down to 1 1/2 cups or liquid.
+        Lower heat to medium. Mix cornflour with 2 tbsp water. Drizzle in half and stir. Sauce will thicken in 1 minute or so. Add more cornflour water mixture if you want it thicker.
+        Strain into bowl, pour into sauce jug.
+    </string>
+    <string name="ribroast_time">2hrs 10mins</string>
+    <string name="ribroast_link">https://www.recipetineats.com/standing-rib-roast/</string>
+    <string name="ribroast_youtube">https://www.youtube.com/watch?v=Qz2UkdqQY_g</string>
+
+    //Grilled Pork Chops
+    <string name="grilledporkchops_name">Grilled Pork Chops</string>
+    <string name="grilledporkchops_chef">Andrew Jun</string>
+    <string name="grilledporkchops_ingredients">
+        ▢ 3 garlic cloves
+        \n▢ 1 tbsp dried oregano
+        \n▢ Zest of 1 lemon
+        \n▢ 85 ml lemon juice
+        \n▢ 65 ml olive oil
+        \n▢ 3/4 tsp salt
+        \n▢ 1/4 tsp black pepper
+        \n▢ 4 pork chops bone in
+    </string>
+    <string name="grilledporkchops_steps">
+        Whisk Marinade ingredients in a bowl. Add pork. Marinade for 1 hr minimum, 3 hours ideal, 12 hours max.
+        Take the pork out of the fridge 20 minutes before cooking.
+        Shake excess marinade off and cook using preferred method.
+        Brush grills with oil and heat on high until smoking.
+        Place pork on grills and cook the first side for 4 minutes until it is nicely charred. Turn and cook the other side for 3 minutes. Turn the porks on their side to briefly sear the fat side. Transfer to plate, rest for 3-5 minutes then serve.
+        Heat skillet with about 1 tbsp oil over high heat. Add pork and cook for 1 minute, then turn DOWN slightly to medium high. Cook for another 3 minutes, then turn and cook the other side for 3 minutes. Turn the porks on their side to briefly sear the fat side.
+        Transfer to plate, rest for 3-5 minutes then serve.
+        Preheat oven to 200C.
+        Place oven shelf in top 1/3 of oven.
+        Place pork on tray. Bake for 15 minutes, then flick to grill/broiler and grill on high for 5 minutes until the surface is nicely browned.
+        Transfer to plate, rest for 3-5 minutes then serve.
+    </string>
+    <string name="grilledporkchops_time">30 minutes</string>
+    <string name="grilledporkchops_link">https://www.recipetineats.com/lemon-garlic-marinated-pork-chops/</string>
+    <string name="grilledporkchops_youtube">https://www.youtube.com/watch?v=WW1oDe1FLv4</string>
+
+    //Avocado Burger
+    <string name="avocadoburger_name">Avocado Burger</string>
+    <string name="avocadoburger_chef">Andrew Jun</string>
+    <string name="avocadoburger_ingredients">
+        ▢ 500g ground chicken
+        \n▢ 1 cup panko breadcrumbs
+        \n▢ 1 egg
+        \n▢ 75g parmesan
+        \n▢ 1 cup green onion
+        \n▢ 2 garlic cloves
+        \n▢ ½ tsp dried sage
+        \n▢ ½ salt and pepper
+        \n▢ 2 tbsp olive oil
+        \n▢ 4 soft burger buns
+        \n▢ 1 avocado
+        \n▢ 60g rocket
+        \n▢ 2 tomatoes
+        \n▢ 4 slices Swiss cheese
+        \n▢ Mayonnaise
+    </string>
+    <string name="avocadoburger_steps">
+        Place Pattie ingredients in bowl, mix well with hands.
+        Form 4 patties, 1.5cm thick, slightly larger than the buns. If mixture is super sticky, either refrigerate mixture for 30 minutes, or wet hands or lightly spray hands with oil.
+        Heat oil in skillet over medium high heat. Add patties, working in batches. Cook for 2 minutes or until deep golden, then flip.
+        After 1 minute, top with a piece of cheese and place lid on to melt cheese.
+        Once cheese is melted, remove patties from skillet.
+        Split buns and lightly toast in oven or under broiler.
+        Cut avocado in half, scoop out a generous amount then “smash” it on the base of the bun with a fork. Sprinkle with salt and pepper.
+        Top with Chicken Pattie, then rocket and tomato.
+        Smear the top bun with mayonnaise and place lid on bun.
+        Devour and be happy!
+    </string>
+    <string name="avocadoburger_time">60 minutes</string>
+    <string name="avocadoburger_link">https://www.recipetineats.com/chicken-burger/</string>
+    <string name="avocadoburger_youtube">https://www.youtube.com/watch?v=FbIe_oxzi54</string>
+
+    //Chicken Burger
+    <string name="chickenburger_name">Chicken Burger</string>
+    <string name="chickenburger_chef">Andrew Jun</string>
+    <string name="chickenburger_ingredients">
+        ▢ 80g flour
+        \n▢ 1 tsp salt
+        \n▢ ½ tsp black pepper
+        \n▢ ¾ tsp paprika
+        \n▢ 1 tsp thyme
+        \n▢ ½ tsp garlic powder
+        \n▢ ½ tsp onion powder
+        \n▢ 2 tbsp olive oil
+        \n▢ 2 large onions
+        \n▢ 500g chicken breast
+        \n▢ 4–8 slices cheese
+        \n▢ 4 soft rolls
+        \n▢ 1 avocado
+        \n▢ Lettuce
+        \n▢ 1 garlic clove
+    </string>
+    <string name="chickenburger_steps">
+        Mix Garlic Mayo ingredients in a small bowl, set aside for 20 minutes.
+        Mix Seasoning in a flat bowl.
+        If required, pound chicken to about 1cm thick. If wanting to be exact, trim to shape of rolls BUT ensure it is about 15% larger.
+        Heat 1 tbsp oil in a skillet over high heat.
+        Add onion and cook, turning regularly, for 5minutes until golden. Season with salt and pepper, toss, then remove.
+        While cooking the onions, preheat oven to 160C. Split rolls, then lightly toast the rolls. Leave in turned off oven with door ajar while you cook chicken.
+        Heat 1 tbsp oil into the same skillet, still on high heat.
+        Dredge chicken in Seasoning, shake off excess, then place in skillet. Repeat.
+        Cook for 2 ½ minutes until golden, then flip.
+        Top with cheese then leave for 2minutes. When the underside is golden, if the cheese is not yet melted, place lid on for 15 seconds.
+        Remove chicken from skillet onto plate. Cover loosely with foil while you start assembling the burgers.
+        Smear base of roll with avocado, sprinkle with salt and pepper. Top with chicken, onion, lettuce then tomato.
+        Smear lid of roll with Garlic Mayo, place on burger. Enjoy!
+    </string>
+    <string name="chickenburger_time">60 minutes</string>
+    <string name="chickenburger_link">https://www.recipetineats.com/chicken-burger/</string>
+    <string name="chickenburger_youtube">https://www.youtube.com/watch?v=Eh7dQ03O2nA</string>
+
+
+
+    //Veggie Burger
+    <string name="veggieburger_name">Veggie Burger</string>
+    <string name="veggieburger_chef">Veggie </string>
+    <string name="veggieburger_ingredients">
+        ▢ 250g mushrooms
+        \n▢ 2 tsp olive oil
+        \n▢ 400g cannellini beans
+        \n▢ 1 large carrot
+        \n▢ 70g cashews
+        \n▢ 55g panko breadcrumbs
+        \n▢ 50g grated parmesan
+        \n▢ 1 egg
+        \n▢ 2 tbsp mayonnaise
+        \n▢ 1 garlic clove
+        \n▢ 1 tsp paprika,salt,pepper
+        \n▢ 150g cooked brown rice
+        \n▢ 3/4 cup green onions
+        \n▢ 2 tbsp olive oil
+        \n▢ 1 garlic clove
+    </string>
+    <string name="veggieburger_steps">
+        Preheat oven to 180C.
+        Pile mushrooms on a baking tray. Drizzle over oil, toss, then spread on the tray.
+        Spread beans on another tray, sprinkle carrots all over.
+        Put beans on top shelf and mushrooms on the shelf underneath.
+        Bake for 15 minutes or until surface of beans is dried out and splitting and they look thoroughly unappetising, and the carrots around the edge of the tray are a bit golden.Remove tray with beans from oven.
+        Move mushrooms to top shelf, bake for further 10 minutes until dried out and wrinkly. Remove from oven, cool.
+        Place cashews in food processor. Blitz until they are breadcrumb size, dont blitz to powder.
+        Add beans, mushrooms and carrot. Blitz on high for 10 seconds or until chopped to large crumb size.
+        Add breadcrumbs, egg, parmesan, garlic, paprika, mayonnaise, salt and pepper. Blitz for 15–30 seconds until it comes together like meat burger mixture but you can still see bits in it.
+        Add rice and shallots, blitz for 2 seconds until just dispersed.
+        Mixture should hold together well to form patties, but not stick to hands. If too wet, add breadcrumbs. If too crumbly, blitz more.
+        Shape into 4–6 patties. Refrigerate for at least 1 hour.
+        Cook burgers cold, straight from the fridge.
+        Heat 2–3 tbsp olive oil skillet on the stove over medium to medium-high heat.
+        Add 3–4 patties and cook until deep golden and crispy, 4 minutes. Carefully flip then cook the other side for 4 minutes until golden, then transfer to paper towel lined plate to drain.
+        Cook cold, straight from fridge. Brush BBQ and Veggie patties with oil. Heat BBQ to medium high. Cook 4 minutes each side until a nice dark crust forms.
+        Toast buns, spread top bun with relish or sauce of choice. Top with your choice of burger fillings and the Veggie Burger, then more sauce if desired.
+    </string>
+    <string name="veggieburger_time">75 minutes</string>
+    <string name="veggieburger_link">https://www.recipetineats.com/veggie-burgers/</string>
+    <string name="veggieburger_youtube">https://www.youtube.com/watch?v=n61yCEtXKV4</string>
+
+    //Cheesecake
+    <string name="cheesecake_name">Cheesecake</string>
+    <string name="cheesecake_chef">Andrew Jun</string>
+    <string name="cheesecake_ingredients">
+        ▢ 200g digestive biscuits
+        \n▢ 90g butter
+        \n▢ 0.5 tsp cinnamon powder
+        \n▢ 1 tbsp brown sugar
+        \n▢ 9g gelatin powder
+        \n▢ 2 tbsp water
+        \n▢ 250ml heavy cream
+        \n▢ 500g cream cheese
+        \n▢ 150g caster sugar
+        \n▢ Vanilla extract
+        \n▢ 1 tbsp lemon juice
+    </string>
+    <string name="cheesecake_steps">
+        Invert and line Turn the base of a 20cm spring form pan UPSIDE DOWN. Grease with butter very lightly. Place a square piece of baking paper on the base. Then clip into the spring form pan excess paper will stick out.
+        Line sides Butter and line the side of the pan.
+        Blitz Break up biscuits roughly by hand and place in a food processor. Blitz until it becomes fine crumbs.
+        Add butter Add the butter, cinnamon and salt. Blitz until it resembles wet sand. It should stay together when pinched between your fingers.
+        Press Pour into the prepared cake tin. Use a spatula to roughly spread it out over the base and up the walls. Then flatten and press the base and walls using something with a flat base and vertical edges. Aim for the wall to be from the top of the rim. Refrigerate crust until required.
+        Bloom gelatine Put the water in a small bowl and sprinkle the gelatine across the surface. Whisk until dissolved then set aside for 3 minute or until it firms up like rubber.
+        Melt Microwave for 15 seconds on high or until it melts. Cool for 5 minutes while you make the filling.
+    </string>
+    <string name="cheesecake_time">30 minutes</string>
+    <string name="cheesecake_link">https://www.recipetineats.com/no-bake-cheesecake/#wprm-recipe-container-154267</string>
+    <string name="cheesecake_youtube">https://www.youtube.com/watch?v=9F197RwgHEg</string>
+
+    //Cookies
+    <string name="cookies_name">Cookies</string>
+    <string name="cookies_chef">Nagi</string>
+    <string name="cookies_ingredients">
+        ▢ 175g unsalted butter
+        \n▢ 70g brown sugar
+        \n▢ 70g white sugar
+        \n▢ Salt
+        \n▢ 2 egg yolks
+        \n▢ 2 tsp vanilla extract
+        \n▢ Baking powder
+        \n▢ 80g rice flour
+        \n▢ 225g flour
+        \n▢ 200g chocolate block
+    </string>
+    <string name="cookies_steps">
+        Place butter, salt and both sugars in a bowl. Beat on speed 5 for 1 minute until it’s soft, creamy and fluffy.
+        Add yolks and vanilla – beat for 1 minute until well incorporated.
+        Add baking powder, rice flour and half the plain flour. Beat until you can’t see flour anymore, then add remaining flour and beat again until incorporated.
+        Mixture will be fairly clump and thick, but if you press between your fingers, it should stick together.
+        Use a wooden spoon to stir chocolate through.
+        Tip out onto a work surface then press together into a 22cm log. Wrap in cling wrap or paper, twisting to seal the ends.
+        Refrigerate 1.5 – 2 hours. Preheat oven to 200°C.
+        Line 2 trays with baking/parchment paper. Put one shelf in the middle of the oven, and the other underneath.
+        Remove from fridge, unwrap.
+        Use a serrated knife to slice into 1.75cm thick slices. Saw carefully through choc chunks. If it falls apart on edges, just press if back together, no big deal. Place 6 on each tray.
+        Bake 10 minutes. Turn oven down to 170°C, switch trays.
+        Bake for a further 15 minutes until surface is light golden and edges are a bit golden.
+        Remove from oven and cool completely on trays – this makes them crunchy.
+        STORAGE: Keeps for at least 2 weeks in an airtight container – they stay 100% crunchy, just like they’re freshly made.
+    </string>
+    <string name="cookies_time">60 minutes</string>
+    <string name="cookies_link">https://www.recipetineats.com/famous-byron-bay-chocolate-chip-cookies/</string>
+    <string name="cookies_youtube">https://www.youtube.com/watch?v=eP29EhqR7Bs</string>
+
+    //Lemon Tart
+    <string name="lemontart_name">Lemon Tart</string>
+    <string name="lemontart_chef">Nagi</string>
+    <string name="lemontart_ingredients">
+        ▢ 1 sweet tart crust
+        \n▢ 1 tbsp lemon zest
+        \n▢ 125 ml lemon juice
+        \n▢ 150 g white sugar
+        \n▢ 170 g unsalted butter
+        \n▢ 3 whole eggs
+        \n▢ 3 egg yolks
+    </string>
+    <string name="lemontart_steps">
+        Make tart crust per linked recipe, including blind baking the empty tart crust. Allow to fully cool before filling.
+        Preheat oven to 180℃.
+        Put all ingredients in a medium saucepan and whisk to combine.
+        Place the saucepan on the stove over low. Whisk constantly, especially as the butter is melting, to ensure it does not split. Keeping stirring until the mixture thickens enough to visibly mound on the surface when dolloped – about 5 minutes, though it might take longer depending on stove strength, saucepan heat retention etc.
+        See video and photos for thickness guide. Dont take it off the stove until its thick enough otherwise the Filling wont set.
+        Strain into a bowl using a fine mesh strainer.
+        Pour into tart shell and smooth the filling surface using an offset spatula or similar.
+        Bake for 5 minutes. It will still be a soft custard when you touch it but not liquidity. It will set more when cooled so its sliceable.
+        Cool tart fully to allow it to set before slicing to serve. Pictured with a dollop of creme fraiche or whipped cream and even vanilla ice cream.
+        Decorate if desired with lemon slices, edible flowers, raspberries. Else pipe on dollops of whipped cream or dust with icing sugar!
+    </string>
+    <string name="lemontart_time">60 minutes</string>
+    <string name="lemontart_link">https://www.recipetineats.com/lemon-tart/</string>
+    <string name="lemontart_youtube">https://www.youtube.com/watch?v=KhvWW5R4ymI</string>
+
+
+
+
+
+</resources>

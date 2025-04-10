@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RecipeActivity">
+
+    <ImageView
+        android:id="@+id/imageRecipe"
+        android:layout_width="420dp"
+        android:layout_height="375dp"
+        android:src="@drawable/cheesecaker"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <TextView
+        android:id="@+id/recipeName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Cheesecake"
+        android:textColor="@color/dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageRecipe"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recipeCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Desserts"
+        android:textColor="@color/light"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/recipeName"
+        app:layout_constraintTop_toBottomOf="@+id/recipeName" />
+
+    <TextView
+        android:id="@+id/recipeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/cheesecake_time"
+        android:textColor="@color/light"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textViewNameCategory2"
+        app:layout_constraintTop_toBottomOf="@+id/recipeName" />
+
+    <TextView
+        android:id="@+id/textViewNameCategory2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/inter"
+        android:text="-"
+        android:textColor="@color/light"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/recipeCategory"
+        app:layout_constraintTop_toBottomOf="@+id/recipeName" />
+
+    <ImageView
+        android:id="@+id/video"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:srcCompat="@drawable/ic_play" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="@+id/imageView25"
+        app:layout_constraintStart_toStartOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/imageView25"
+        app:srcCompat="@drawable/round_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:onClick="goBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageRecipe"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024"
+        app:srcCompat="@drawable/ic_circle_light" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageRecipe"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/imageRecipe"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024"
+        app:srcCompat="@drawable/ic_circle_light" />
+
+    <ImageView
+        android:id="@+id/link"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:srcCompat="@drawable/ic_link" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/round_circle_24"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRecipe"
+        app:layout_constraintEnd_toEndOf="@+id/imageRecipe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageRecipe" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="370dp"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/recipeName"
+        app:layout_constraintTop_toBottomOf="@+id/recipeCategory">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textIngredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="Ingredients"
+                android:textColor="@color/dark"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/recipeName"
+                app:layout_constraintTop_toBottomOf="@+id/recipeCategory" />
+
+            <TextView
+                android:id="@+id/recipeIngredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/inter"
+                android:text="@string/cheesecake_ingredients"
+                android:textColor="@color/dark"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/recipeName"
+                app:layout_constraintTop_toBottomOf="@+id/textIngredients" />
+
+            <TextView
+                android:id="@+id/textSteps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="Steps"
+                android:textColor="@color/dark"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/recipeName"
+                app:layout_constraintTop_toBottomOf="@+id/recipeIngredients" />
+
+            <TextView
+                android:id="@+id/recipeSteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/inter"
+                android:gravity="fill_horizontal"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollHorizontally="false"
+                android:text="@string/cheesecake_steps"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/dark"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/recipeName"
+                app:layout_constraintTop_toBottomOf="@+id/textSteps" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

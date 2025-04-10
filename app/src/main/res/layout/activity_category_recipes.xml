@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="visible"
+    tools:context=".CategoryRecipesActivity">
+
+    <ImageView
+        android:id="@+id/categoryImage"
+        android:layout_width="335dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryName"
+        app:srcCompat="@drawable/dessertc" />
+
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Dessert"
+        android:textColor="@color/dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="3 Recipes"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/categoryImage"
+        app:layout_constraintEnd_toEndOf="@+id/categoryImage"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="@+id/categoryImage"
+        app:layout_constraintTop_toTopOf="@+id/categoryImage"
+        app:layout_constraintVertical_bias="0.864" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Sort by"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryImage" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Most popular"
+        android:textColor="@color/basic"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/categoryImage" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="42dp"
+        android:onClick="goBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_dark" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/categoryImage"
+        app:srcCompat="@drawable/ic_filter" />
+
+    <ImageView
+        android:id="@+id/recipeImage1"
+        android:layout_width="170dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:srcCompat="@drawable/cheesecake" />
+
+    <TextView
+        android:id="@+id/recipeName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/inter_bold"
+        android:onClick="selectRecipe"
+        android:text="Cheesecake"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/recipeImage1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/recipeImage1"
+        app:layout_constraintTop_toTopOf="@+id/recipeImage1" />
+
+    <TextView
+        android:id="@+id/textViewRN1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inter"
+        android:text="By Andrew Jun"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/recipeImage1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/recipeImage1"
+        app:layout_constraintTop_toBottomOf="@+id/recipeName1" />
+
+    <ImageView
+        android:id="@+id/recipeImage2"
+        android:layout_width="170dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeImage1"
+        app:srcCompat="@drawable/lemontart" />
+
+    <TextView
+        android:id="@+id/recipeName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/inter_bold"
+        android:onClick="selectRecipe"
+        android:text="Lemon Tart"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/recipeImage2"
+        app:layout_constraintEnd_toEndOf="@+id/recipeImage2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/recipeImage2"
+        app:layout_constraintTop_toTopOf="@+id/recipeImage2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewRN3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inter"
+        android:text="By Jackie Sobon"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/recipeImage2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/recipeImage2"
+        app:layout_constraintTop_toBottomOf="@+id/recipeName2" />
+
+    <ImageView
+        android:id="@+id/recipeImage3"
+        android:layout_width="170dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/recipeImage1"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:srcCompat="@drawable/cookies" />
+
+    <TextView
+        android:id="@+id/recipeName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/inter_bold"
+        android:onClick="selectRecipe"
+        android:text="Cookies"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/recipeImage3"
+        app:layout_constraintEnd_toEndOf="@+id/recipeImage3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/recipeImage3"
+        app:layout_constraintTop_toTopOf="@+id/recipeImage3"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <TextView
+        android:id="@+id/textViewRN2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inter"
+        android:text="By Nicky Corbishley"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/recipeImage3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/recipeImage3"
+        app:layout_constraintTop_toBottomOf="@+id/recipeName3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
