@@ -11,3 +11,8 @@ This Android application allows users to discover and learn cooking recipes by s
 6. Detailed view of the selected recipe with:  
    - Link to view full instructions  
    - Video tutorial option  
+
+
+## Demo Video
+
+[Watch the Video](videos/recipeAPP.mp4)
