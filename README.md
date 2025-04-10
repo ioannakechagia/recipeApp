@@ -4,8 +4,8 @@ This Android application allows users to discover and learn cooking recipes by s
 
 ## Features
 
--User Registration and Login \n
--Welcome screen displaying the user's name after login \n
+-User Registration and Login <br>
+-Welcome screen displaying the user's name after login <br>
 -Recipe categories selection (e.g., Appetizers, Main Courses, Desserts)\n
 -Display of recipes based on selected category
 -Detailed information for each recipe
