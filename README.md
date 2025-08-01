@@ -12,5 +12,5 @@ This Android application allows users to discover and learn cooking recipes by s
    - Link to view full instructions  
    - Video tutorial option  
 
-<img width="600" height="1000" alt="83F6CF4C-AEA3-474E-8938-E0B493B5D1F3" src="https://github.com/user-attachments/assets/b6ae685c-a49f-4901-86f6-31390834fed6" />
+<img width="550" height="800" alt="83F6CF4C-AEA3-474E-8938-E0B493B5D1F3" src="https://github.com/user-attachments/assets/b6ae685c-a49f-4901-86f6-31390834fed6" />
 
