@@ -12,7 +12,6 @@ This Android application allows users to discover and learn cooking recipes by s
    - Link to view full instructions  
    - Video tutorial option  
 
+<img width="956" alt="map" src="https://github.com/user-attachments/assets/fd64c135-2090-49c4-aedf-5741d34c8143">
 
-## Demo Video
-
-[Watch the Video](videos/recipeAPP.mp4)
+---
